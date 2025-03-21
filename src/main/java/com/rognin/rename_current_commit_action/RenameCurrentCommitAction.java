@@ -1,11 +1,10 @@
 package com.rognin.rename_current_commit_action;
 
-import com.intellij.openapi.actionSystem.ActionUpdateThread;
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import org.jetbrains.annotations.NotNull;
 
-public class RebameCurrentCommitAction extends AnAction {
+public class RenameCurrentCommitAction extends AnAction {
 
     @Override
     public void update(@NotNull AnActionEvent event) {
